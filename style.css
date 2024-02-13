@@ -1,0 +1,57 @@
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-color: #1e1e1e;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 960px; 
+    border: 2px solid #333; 
+    margin: 20px auto; 
+  }
+
+  .btns {
+    display: flex;
+  }
+
+  .grid-square {
+    width: calc(960px / var(--num-squares)); 
+    height: calc(960px / var(--num-squares)); 
+    background-color: white;  
+    box-sizing: border-box; 
+  }
+
+  #changeGridBtn, #resetGridBtn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+  }
+
+  #resetGridBtn:hover {
+    background-color: #fff;
+    color: black;
+    margin: 22px auto;
+    padding: 12px 22px;
+
+  }
+
+  #changeGridBtn:hover {
+    background-color: #fff;
+    color: black;
+    margin: 22px auto;
+    padding: 12px 22px;
+    
+  }
